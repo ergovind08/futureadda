@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNIN</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <button type ="submit" class="btn3" onclick="openPopup()">Submit</button>
+        <div class="popup" id="popup">
+            <img src="5.png" width="100" height="100">
+            <h2>Thank you !</h2>
+            <p>Your details has been successfully submitted. Thanks!</p>
+            <button type="button" onlick="closePopup()">OK</button>
+        </div>
+   
+
+    </div>
+    <script>
+        let popup = document.getElementById("popup");
+        function openPopup(){
+                popup.calssList.add("open-popup");
+        }
+        function closePopup(){
+                popup.calssList.remove("close-popup");
+        }
+    </script>
+    
+</body>
+</html>
