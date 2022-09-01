@@ -12,7 +12,7 @@ body{
     height: 100vh;
     background-position : center;
     background-size: cover;
-    background-image: url("1.jpg");
+    background-image: url("images/1.jpgs");
 }
 .navbar{
     width: 100%;
@@ -277,7 +277,7 @@ ul li a:hover{
 }
 #graphics, #upperPartStudyCorner #graphics{
     width:50%;
-    background-image: url('practice.svg');
+    background-image: url('images/practice.svg');
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -315,7 +315,7 @@ ul li a:hover{
     justify-content: center;
 }
 #upperPartStudyCorner #graphics{
-    background-image: url(Study-Corner.svg);
+    background-image: url('images/Study-Corner.svg');
     height: 360px;
     width: 516px;
 }
