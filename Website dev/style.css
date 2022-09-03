@@ -12,7 +12,7 @@ body{
     height: 100vh;
     background-position : center;
     background-size: cover;
-    background-image: url("images/1.jpgs");
+    background-image: url("1.jpg");
 }
 .navbar{
     width: 100%;
